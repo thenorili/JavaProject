@@ -17,28 +17,33 @@ public class LocationScoreFrame extends JFrame implements ActionListener, MouseL
     public static final int WIDTH = 500;
     public static final int HEIGHT = 500;
 
-    private JPanel graphBox;
-    private JPanel draftPanel;
+    private TitlePanel titleArea;
+    private FilterPanel filterArea;
+    private DataTablePanel dataArea;
 
     LocationScoreFrame(){
         setTitle("Location Score Calculator");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
-        // Need to have several panels in groups:
 
-        /*
-        Top Group - Title (Company and product)
+
+        titleArea = new TitlePanel();
+        filterArea = new FilterPanel();
+        dataArea = new DataTablePanel();
+
+        add(titleArea);
+        add(filterArea);
+        add(dataArea);
+
         
-        Middle Group - Drop Down and Button
 
-        Bottom Group - Data Table with scroll bars
-        //
-        //
-        */
+        repaint();
+        setResizable(false);
+        setVisible(true);
 
     }
 
-    // This will be the main method used
+    // This will be the primary method used
     // to click on various buttons
     @Override
     public void actionPerformed(ActionEvent e) {
