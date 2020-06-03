@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="JavaProject">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/US_St_Cn_Table_Workforce_Wages.xml.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Monolithic NITW Project Library.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Individiual NITW Project Library.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

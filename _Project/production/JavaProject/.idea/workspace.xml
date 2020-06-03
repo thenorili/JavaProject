@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5e48bd7e-c48d-480f-a562-a84f6a9a948e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1covXP7PxrwgdZaxQfVr5Y2NQBq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ExampleDataEngineQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.nitw.project.ExampleDataEngineQuery" />
+      <module name="JavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.nitw.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ExampleDataEngineQuery" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e48bd7e-c48d-480f-a562-a84f6a9a948e" name="Default Changelist" comment="" />
+      <created>1591207799723</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591207799723</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1359" height="217" key="GridCell.Tab.0.bottom" timestamp="1591208100106">
+      <screen x="37" y="23" width="1403" height="877" />
+    </state>
+    <state width="1359" height="217" key="GridCell.Tab.0.bottom/37.23.1403.877@37.23.1403.877" timestamp="1591208100106" />
+    <state width="1359" height="217" key="GridCell.Tab.0.center" timestamp="1591208100106">
+      <screen x="37" y="23" width="1403" height="877" />
+    </state>
+    <state width="1359" height="217" key="GridCell.Tab.0.center/37.23.1403.877@37.23.1403.877" timestamp="1591208100105" />
+    <state width="1359" height="217" key="GridCell.Tab.0.left" timestamp="1591208100105">
+      <screen x="37" y="23" width="1403" height="877" />
+    </state>
+    <state width="1359" height="217" key="GridCell.Tab.0.left/37.23.1403.877@37.23.1403.877" timestamp="1591208100105" />
+    <state width="1359" height="217" key="GridCell.Tab.0.right" timestamp="1591208100106">
+      <screen x="37" y="23" width="1403" height="877" />
+    </state>
+    <state width="1359" height="217" key="GridCell.Tab.0.right/37.23.1403.877@37.23.1403.877" timestamp="1591208100106" />
+    <state x="227" y="23" key="SettingsEditor" timestamp="1591207830311">
+      <screen x="37" y="23" width="1403" height="877" />
+    </state>
+    <state x="227" y="23" key="SettingsEditor/37.23.1403.877@37.23.1403.877" timestamp="1591207830311" />
+    <state x="116" y="64" key="new project wizard" timestamp="1591207947443">
+      <screen x="37" y="23" width="1403" height="877" />
+    </state>
+    <state x="116" y="64" key="new project wizard/37.23.1403.877@37.23.1403.877" timestamp="1591207947443" />
+  </component>
+</project>
