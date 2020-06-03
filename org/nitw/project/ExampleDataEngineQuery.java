@@ -561,7 +561,6 @@ public final class ExampleDataEngineQuery {
         List<Object[]> list = null;
 
         list = queryDataSetByAttrNameValueLE(this.dEng, DATA_SET, ATTR_NAME, ATTR_VAL);
-
         //dump data for index, attribute value
         for (Object[] obj : list) {
             String attrValue = (String) obj[0];
@@ -583,7 +582,6 @@ public final class ExampleDataEngineQuery {
         List<Object[]> list = null;
 
         list = queryDataSetByAttributeNameALL(this.dEng, DATA_SET, ATTR_NAME);
-
         //dump data for index, attribute value
         for (Object[] obj : list) {
             String attrValue = (String) obj[0];

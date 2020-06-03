@@ -131,6 +131,12 @@ public class DataEngine {
     public static final String fileNameStateExports 			= "Exports_By_State_2012.xlsx";
     public static final String fileNameStateTaxRates 			= "State_Tax_Rates.xlsx";
 
+    // value for empty column
+    private static final String EMPTY_COLUMN_VALUE = "None";
+
+    // string for detecting if row should be scanned into map
+    private static final String COMMENT_LINE_END_STRING = ".";
+
     private boolean echoImportFlag      = true;   //echo loading, record size, time
     private boolean dataEngineReadyFlag = false;  //indicate data engine is ready from data import
     /**
@@ -592,27 +598,31 @@ public class DataEngine {
 
             while (rowIter.hasNext()) {
                 idx = 0;
+                // skip empty column
+                if(headers.get(idx).toString().equals("")) continue;;
                 Map<String, String> map = new HashMap<>(rowSize);
                 row = rowIter.next();
-
+                boolean isCommentLine = false;
                 // iterate on cells for the current row
                 cellIter = row.cellIterator();
                 while (cellIter.hasNext() && idx < rowConcatIndex[2]) {
 
                     Cell cell = cellIter.next();
-                    if (cell.toString().contentEquals("")) {
-                        continue ;
-                    }//end if
-                    map.put(headers.get(idx).toString(), cell.toString());
+                    String cellValue = cell.toString();
+                    if(cellValue.endsWith(COMMENT_LINE_END_STRING)) {
+                        isCommentLine = true;
+                        break;
+                    }
+                    if (cellValue.contentEquals("")) map.put(headers.get(idx).toString(), EMPTY_COLUMN_VALUE);
+                    else map.put(headers.get(idx).toString(), cellValue);
 
                     idx++;
 
                 }//end while
 
-                list.add(map);
+                if(!isCommentLine) list.add(map);
 
             }//end while
-
             workbook.close();
             fis.close();
 
