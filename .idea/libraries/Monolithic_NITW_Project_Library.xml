@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Monolithic NITW Project Library">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Monolithic NITW Project Library.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://$PROJECT_DIR$/Monolithic NITW Project Library.zip!/" recursive="false" />
+  </library>
+</component>
