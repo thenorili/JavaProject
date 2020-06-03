@@ -1,4 +1,4 @@
-package _Project.src;
+package location_scorer;
 
 import java.awt.BorderLayout;
 import java.awt.Color;

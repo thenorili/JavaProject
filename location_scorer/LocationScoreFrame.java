@@ -1,4 +1,4 @@
-package _Project.src;
+package location_scorer;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -12,17 +12,29 @@ import java.util.TimerTask;
 import javax.swing.*;
 
 
-public class LocationScoreUI extends JFrame implements ActionListener, MouseListener
+public class LocationScoreFrame extends JFrame implements ActionListener, MouseListener
 {
     public static final int WIDTH = 500;
     public static final int HEIGHT = 500;
 
     private JPanel graphBox;
+    private JPanel draftPanel;
 
-    LocationScoreUI(){
+    LocationScoreFrame(){
         setTitle("Location Score Calculator");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
+        // Need to have several panels in groups:
+
+        /*
+        Top Group - Title (Company and product)
+        
+        Middle Group - Drop Down and Button
+
+        Bottom Group - Data Table with scroll bars
+        //
+        //
+        */
 
     }
 

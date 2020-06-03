@@ -34,7 +34,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package org.nitw.project;
+package location_scorer;
 
 //reference internal data structures from Java collections
 

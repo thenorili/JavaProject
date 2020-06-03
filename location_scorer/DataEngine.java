@@ -32,7 +32,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package org.nitw.project;
+package location_scorer;
 
 //Apache POI - the Java API for Microsoft Documents https://poi.apache.org
 
